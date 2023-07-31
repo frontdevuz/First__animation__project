@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+@keyframes box-mover {
+    0% {
+        left: 0;
+        background-color: rgb(244, 211, 25);
+        width: 200px;
+        border-radius: 100px;
+    }
+
+
+    100% {
+        left: 100%;
+        background-color: rgb(250, 0, 154);
+        width: 200px;
+        border-radius: 100px;
+
+    }
+}
+
+.box-big {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: royalblue;
+    border-radius: 100px;
+    animation: box-mover 4s linear 0.5s 6 alternate backwards;
+}
+
+.box-big:hover {
+    animation-play-state: paused;
+
+}
+
+.big {
+    background-color: black;
+
+}
+
+body {
+    background-color: white;
+}
+
+@keyframes mover {
+    0% {
+        left: 0;
+        background-color: rgb(255, 0, 0);
+        width: 200px;
+        border-radius: 100px;
+    }
+
+
+    100% {
+        left: 100%;
+        background-color: rgb(4, 255, 0);
+        width: 200px;
+        border-radius: 100px;
+
+    }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: royalblue;
+    border-radius: 100px;
+    animation: mover 4.5s linear 0.5s 6 alternate backwards;
+
+}
+
+.box:hover {
+    animation-play-state: paused;
+}
+
+.quti {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: royalblue;
+    border-radius: 100px;
+    animation: mov 5s linear 0.5s 6 alternate backwards;
+}
+
+.quti:hover {
+    animation-play-state: paused;
+}
+
+@keyframes mov {
+    0% {
+        left: 0;
+        background-color: rgb(195, 0, 255);
+        width: 200px;
+        border-radius: 100px;
+    }
+
+
+    100% {
+        left: 100%;
+        background-color: rgb(0, 204, 250);
+        width: 200px;
+        border-radius: 100px;
+
+    }
+}
+
+hr {
+    height: 5px;
+    background-color: white;
+} 
+marquee h2{
+font-size: 40px; 
+animation:gov 5s linear  10 alternate ;
+
+}
+@keyframes gov {
+    0% {
+        left: 0;
+        color: blue;
+        width: 200px;
+        
+    }
+
+
+    100% {
+        left: 100%;
+        color: rgb(0, 214, 0);
+        width: 200px;
+        
+
+    }
+} 
